@@ -7,7 +7,7 @@
 
 yasm_packages.each do |pkg|
     package pkg do
-        action :purge
+        action :remove
         action :install
     end
 end
