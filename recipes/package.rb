@@ -11,8 +11,8 @@ yasm_packages.each do |pkg|
     end
 end
 
-yasm_packages.each do |pkg|
-    package pkg do
-        action :install
-    end
-end
+# yasm_packages.each do |pkg|
+#     package pkg do
+#         action :install
+#     end
+# end
